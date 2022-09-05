@@ -70,7 +70,6 @@
 .or{
     display: block;
     text-align: center;
-    margin-bottom: 5px;
 }
 
 .googleBTN{
@@ -89,4 +88,34 @@
     border: 1px solid black;
     color: black;
 
+}
+
+
+
+.singupBTN:hover{
+
+}
+
+.singupBTN{
+    color:black;
+}
+
+.singupBTN:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+.notreg{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.forgetmeContainer{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.forgetmeContainer a{
+    color: black;
 }

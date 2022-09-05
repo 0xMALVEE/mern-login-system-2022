@@ -90,3 +90,14 @@
     border: 1px solid black;
     color: black;
 }
+
+
+.footerContainer{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.footerContainer a{
+    color:black;
+}

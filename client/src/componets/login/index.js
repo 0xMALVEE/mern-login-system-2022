@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import LoginStyles from "./Login.module.css"
 
 function Login() {
@@ -17,10 +18,23 @@ function Login() {
                     <input placeholder="enter your password" type="password"/>
                 </div>
 
+                <div className={LoginStyles.forgetmeContainer}>
+                    <div>
+                        Remember Me <input type="checkbox" />
+                    </div>
+                    <div>
+                        <Link to="/account/forgotpassowrd">Forgot password?</Link>
+                    </div>
+                </div>
+
                 <button className={LoginStyles.loginBTN}>LOGIN</button>
-                 <span className={LoginStyles.or}>or</span>
+                <span className={LoginStyles.or}>or</span>
                  <button className={LoginStyles.googleBTN}>
                     <i class="fa-brands fa-google"></i>  Sign in with google</button>
+                
+                    
+                    <span className={LoginStyles.notreg}>Not registered yet?  <Link className={LoginStyles.singupBTN} to="/account/signup">Signup</Link></span>
+                    
             </div>
 
         </div>

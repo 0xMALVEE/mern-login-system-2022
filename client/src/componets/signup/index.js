@@ -1,5 +1,6 @@
 import React from "react";
 import SignUp from "./Signup.module.css"
+import {Link} from "react-router-dom"
 
 function Signup() {
     return (
@@ -30,10 +31,21 @@ function Signup() {
                     <input placeholder="retype your password" type="password"/>
                 </div>
 
+                <div className={SignUp.footerContainer}>
+                        <div>
+                            Already Signed Up? <Link to="/account/login">Login</Link>
+                        </div>
+                        <div>
+                            <Link to="/account/forgotpassword">Forgot Password?</Link>
+                        </div>
+                    </div>
+
                 <button className={SignUp.loginBTN}>REGISTER</button>
                  <span className={SignUp.or}>or</span>
                  <button className={SignUp.googleBTN}>
                     <i class="fa-brands fa-google"></i>  Sign up with google</button>
+
+                 
             </div>
 
         </div>
