@@ -19,6 +19,16 @@
 .container2{
     display: flex;
 }
+.linkBTN{
+    color:rgba(255,255,255,.5);
+    text-decoration: none;
+}
+
+.linkBTN:hover{
+    color:rgba(255,255,255,.5);
+    text-decoration: underline;
+}
+
 
 .or{
     display: inline-block;

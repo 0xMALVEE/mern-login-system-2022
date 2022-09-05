@@ -4,8 +4,8 @@ import LoginStyles from "./Login.module.css"
 function Login() {
     return (
         <div className={LoginStyles.loginContainer}>
-            <div>
-                <h3>Welcome back</h3>
+            <div className={LoginStyles.loginContainerv2}>
+                <h1>Welcome back</h1>
 
                 <div className={LoginStyles.inputContainer}>
                     <label>EMAIL</label>
@@ -18,6 +18,9 @@ function Login() {
                 </div>
 
                 <button className={LoginStyles.loginBTN}>LOGIN</button>
+                 <span className={LoginStyles.or}>or</span>
+                 <button className={LoginStyles.googleBTN}>
+                    <i class="fa-brands fa-google"></i>  Sign in with google</button>
             </div>
 
         </div>

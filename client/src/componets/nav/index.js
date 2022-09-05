@@ -13,9 +13,9 @@ function Nav() {
                 <div>
                     <span className="d-blcok">Account</span>
                     <div className={NavStyles.container2}>
-                        <Link className="d-block" to="/account/login">Login</Link>
+                        <Link className={`d-block ${NavStyles.linkBTN}`} to="/account/login">Login</Link>
                         <span className={NavStyles.or}>or</span>
-                        <Link to="account/signup">Singup</Link>
+                        <Link className={NavStyles.linkBTN} to="account/signup">Singup</Link>
                     </div>
                    
                 </div>
