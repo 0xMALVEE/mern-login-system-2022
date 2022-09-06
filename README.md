@@ -15,4 +15,4 @@ Running the app
 `server = nodemon server.js`
 
 ### Demo of the app 
-<p> <img src="https://github.com/0xMALVEE/react-tasklist-draggable/blob/main/demo.gif" width="700" height="500"> </p>
+<p> <img src="https://github.com/0xMALVEE/mern-login-system-2022/blob/main/demo.gif" width="700" height="500"> </p>
