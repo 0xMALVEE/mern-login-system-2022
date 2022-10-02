@@ -14,10 +14,6 @@
     min-height: 80vh;
 }
 
-.inputContainer{
-
-}
-
 .inputContainer label{
     display: block;
     margin-top: 30px;
@@ -87,12 +83,6 @@
     background-color: white;
     border: 1px solid black;
     color: black;
-
-}
-
-
-
-.singupBTN:hover{
 
 }
 
