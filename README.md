@@ -2,6 +2,8 @@
  
 `Complete login system with oauth and jwt.`
 
+This is a login system built using the MERN stack for educational purpose.
+
 ## How to run this app
 
 1. Make sure you put your google oauth client id in the src/index.js folder.
